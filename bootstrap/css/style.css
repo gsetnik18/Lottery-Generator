@@ -1,0 +1,15 @@
+body {
+    background-image: url("../img/money.jpg");
+
+}
+
+div.container {
+    background: green;
+    text-align: center;
+}
+
+button {
+    color: black;
+}
+
+
