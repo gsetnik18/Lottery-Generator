@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <div class="<div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-3">Lotto Game</h1>
             <p class="lead">Want to win ?</p>
@@ -30,8 +30,16 @@
     <script type="text/javascript">
     $(document).ready(function() {
 
+
+         // gernerate a random number between
+
+         for (var i = 0; i < 9; i++) {
+    lotteryNumber= [Math.floor(Math.random() * 9)];
+        console.log(lotteryNumber);
+
+         }
         
-    };
+    });
 
 </script>
 </body>
